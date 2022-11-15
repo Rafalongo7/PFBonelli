@@ -2,68 +2,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: 62,5%;
     color: rgb(56, 56, 56);
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
 }
 
 p{
-    font-weight: 900;
     font-size: 1rem;
 }
 
 h1{
-    font-weight: 900;
     font-size: 3.5rem;
-    padding: 0.5rem;
     font-style: italic;
+    padding: 0.5rem;
 }
 
 h2{
-   font-weight: 900;
    font-size: 3rem;
    padding: 0.5rem;
 }
 
+hr{
+    color: #76767672;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
 a{
-    font-weight: 900;
     font-size: 1rem;
     font-style: italic;
     color: rgb(70, 75, 225);
-}
-
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    position: relative;
-    font-weight: 900;
-    padding: 0.5rem; 
-    background-color: rgb(163, 203, 163);
-    border: 0.2rem solid rgb(134, 166, 134);
-}
+} 
 
 .paginasNav{
     position: relative;
-    top: 1rem;
-    bottom: 1rem;
+    top: 0.5rem;
+    bottom: 0.5rem;
 }
  .espacioNav{
-    width: 50%;
+    width: 40%;
     flex-shrink: 5;
  }
 
 .logo{
     height: 5rem;
+    transition: transform 0.5s;
 }
+.logo:hover{
+    transform: scale(1.2,1.2) translate(1rem, 1rem);
+    position: relative;
 
+}
 .links{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem; 
+    background-image: linear-gradient(to left top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
+    border: 0.2rem solid rgb(134, 166, 134);
     text-decoration: none;
-    color: rgb(243, 243, 243);
     font-size: 1.5rem;
+    transition: transform 0.5s;
+    margin: 0.5rem;
+
+}
+.links:hover{
+    transform: scale(1.2,1.2);
+    position: relative;
+    z-index: 100;
 }
 
 .cabecera{
-    background-color: rgb(136, 169, 136);
+    /*background-color: rgb(136, 169, 136);*/
+    background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
     border-bottom: 1px solid black;
     color: rgb(75, 75, 164);
     position: sticky;
@@ -74,14 +92,14 @@ nav ul li{
 }
 
 .contenidoPrincipal{
-    background-color: rgb(232, 255, 232);
+    background-image: linear-gradient(to bottom, #ffffff, #e0fbe1, #d2f7d3, #c4f2c4, #a4d9a4, #5b865b);
     display: flex;
     width: 100%;
     height: 100%;
 }
 
 .pieDePag{
-    background-color: rgb(136, 169, 136);
+    background-image: linear-gradient(to bottom,#a5d3a8, #95c197, #85af86, #6f9770, #5d815d);
     color:  rgb(65, 80, 65);
     text-align: center;
     border-top: 1px solid black;
@@ -92,12 +110,14 @@ nav ul li{
 }
 
 .articulo{
+    /*background-color: rgb(163, 203, 163);*/
+    background-image: linear-gradient(to top, #b7e1b9, #aed8b0, #a5cea6, #9dc59d, #94bc94);
     display: flex;
-    background-color: rgb(163, 203, 163);
     /*overflow: scroll;*/
     padding: 1rem;
     margin: 2rem;
-    border: 0.3rem solid rgb(80, 103, 80);;
+    border: 0.2rem solid;
+    border-image: linear-gradient(45deg, #212c22,  #577c5a, #afe2ae) 1;
 }
 
 .contacto{
@@ -108,13 +128,15 @@ nav ul li{
 .pared{
     background-image: url(../assets/images/pared.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     height: 90vh;
     width: 100vh;
     margin: 0 auto;
     display: flex;
     overflow: hidden;
     justify-content: center;
-    border: 0.5rem solid rgb(124, 75, 46);
+    border: 0.5rem solid;
+    border-image: linear-gradient(to left, #bea687, #c29e73, #c59660, #c98d4e, #cd843b, #c17a30, #b66f25, #aa6519, #8d5815, #724b12, #593e10, #42300e) 1;
 }
 
 .centrado{
@@ -124,13 +146,25 @@ nav ul li{
 .pared__cuadro{
     margin: 5rem;
     block-size: 40vh;
-
+    transition: transform 1s;
 }
 
 .pared__cuadro2{
     margin: 4rem;
     block-size: 25vh;
+    transition: transform 1s;
+}
 
+.pared__cuadro:hover{
+    transform: scale(2,2);
+    position: absolute;
+    z-index: 100;
+    background-color: #0000001d;
+}
+.pared__cuadro2:hover{
+    transform: scale(2,2);
+    position: absolute;
+    z-index: 100
 }
 
 .imgEventos{
@@ -182,7 +216,7 @@ nav ul li{
 .descripcionPint{
     padding: 2rem;
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .chat{
@@ -194,5 +228,9 @@ nav ul li{
     right: 4rem;
     text-align: center;
     overflow: hidden;
+}
+
+.listaGal{
+    font-style: italic;
 }
 
