@@ -6,7 +6,7 @@
     color: rgb(56, 56, 56);
     font-family: 'Source Serif Pro', serif;
     font-weight: 600;
-}
+} 
 
 p{
     font-size: 1rem;
@@ -27,14 +27,6 @@ hr{
     color: #76767672;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color: rgb(243, 243, 243);
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: 600;
-}
-
 a{
     font-size: 1rem;
     font-style: italic;
@@ -46,10 +38,6 @@ a{
     top: 0.5rem;
     bottom: 0.5rem;
 }
- .espacioNav{
-    width: 40%;
-    flex-shrink: 5;
- }
 
 .logo{
     height: 5rem;
@@ -71,7 +59,7 @@ a{
     font-size: 1.5rem;
     transition: transform 0.5s;
     margin: 0.5rem;
-
+    color: rgb(219, 231, 220);
 }
 .links:hover{
     transform: scale(1.2,1.2);
@@ -79,16 +67,8 @@ a{
     z-index: 100;
 }
 
-.cabecera{
-    /*background-color: rgb(136, 169, 136);*/
+.bg-verdeGrad{
     background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
-    border-bottom: 1px solid black;
-    color: rgb(75, 75, 164);
-    position: sticky;
-    top: 0px;
-    z-index: 10;
-    text-align: center;
-    display: flex;
 }
 
 .contenidoPrincipal{
