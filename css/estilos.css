@@ -81,12 +81,7 @@ a{
 .pieDePag{
     background-image: linear-gradient(to bottom,#a5d3a8, #95c197, #85af86, #6f9770, #5d815d);
     color:  rgb(65, 80, 65);
-    text-align: center;
     border-top: 1px solid black;
-    position: absolute;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
 }
 
 .articulo{
@@ -105,18 +100,10 @@ a{
     font-size: 1rem;
 }
 
-.pared{
-    background-image: url(../assets/images/pared.jpg);
+.habitacion{
+    background-image: url(../assets/images/habitacion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
-    width: 100vh;
-    margin: 0 auto;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    border: 0.5rem solid;
-    border-image: linear-gradient(to left, #bea687, #c29e73, #c59660, #c98d4e, #cd843b, #c17a30, #b66f25, #aa6519, #8d5815, #724b12, #593e10, #42300e) 1;
 }
 
 .centrado{
@@ -124,13 +111,10 @@ a{
 }
 
 .pared__cuadro{
-    margin: 5rem;
-    block-size: 40vh;
     transition: transform 1s;
 }
 
 .pared__cuadro2{
-    margin: 4rem;
     block-size: 25vh;
     transition: transform 1s;
 }
@@ -150,29 +134,6 @@ a{
 .imgEventos{
     height: 400px;
     display: inline-block;
-}
-/*.box{
-    background-color: blue;
-    width: 400px;
-    height: 400px;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    border: 1px solid blueviolet;
-
-}
-*/
-.margenIzq{
-    background-color: white;
-    width: 15%;
-    border-right: 1px solid black;
-}
-
-.margenDere{
-    background-color: white;
-    width: 15%;
-    border-left: 1px solid black;
 }
 
 .seccionPrincipal{    
