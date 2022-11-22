@@ -104,31 +104,11 @@ a{
     background-image: url(../assets/images/habitacion.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .centrado{
     text-align: center;
-}
-
-.pared__cuadro{
-    transition: transform 1s;
-}
-
-.pared__cuadro2{
-    block-size: 25vh;
-    transition: transform 1s;
-}
-
-.pared__cuadro:hover{
-    transform: scale(2,2);
-    position: absolute;
-    z-index: 100;
-    background-color: #0000001d;
-}
-.pared__cuadro2:hover{
-    transform: scale(2,2);
-    position: absolute;
-    z-index: 100
 }
 
 .imgEventos{
@@ -161,7 +141,7 @@ a{
 }
 
 .chat{
-    background-color: aqua;
+    background-color: rgb(0, 255, 21);
     height: 5vh;
     width: 5vh;
     position: fixed;
@@ -173,5 +153,6 @@ a{
 
 .listaGal{
     font-style: italic;
+    color: black;
 }
 
