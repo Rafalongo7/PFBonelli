@@ -85,10 +85,8 @@ a{
 }
 
 .articulo{
-    /*background-color: rgb(163, 203, 163);*/
     background-image: linear-gradient(to top, #b7e1b9, #aed8b0, #a5cea6, #9dc59d, #94bc94);
     display: flex;
-    /*overflow: scroll;*/
     padding: 1rem;
     margin: 2rem;
     border: 0.2rem solid;
@@ -107,10 +105,6 @@ a{
     height: 100vh;
 }
 
-.centrado{
-    text-align: center;
-}
-
 .imgEventos{
     height: 400px;
     display: inline-block;
@@ -125,34 +119,24 @@ a{
     width: 50%;
 }
 
-.imagenArticulo{
-    margin: 1rem;
-    width: 95%;
-}
-
-.contenedorSP{
-    margin: 2rem;
-}
-
 .descripcionPint{
     padding: 2rem;
     font-size: 1rem;
     font-weight: 600;
 }
 
-.chat{
-    background-color: rgb(0, 255, 21);
-    height: 5vh;
-    width: 5vh;
-    position: fixed;
-    bottom: 1rem;
-    right: 4rem;
-    text-align: center;
-    overflow: hidden;
-}
 
 .listaGal{
     font-style: italic;
     color: black;
 }
 
+.imgDin{
+    transition: transform 0.5s;
+
+}
+.imgDin:hover{
+    transform: scale(1.2,1.2);
+    position: relative;
+    z-index: 100;
+}
