@@ -1,0 +1,25 @@
+{
+  "name": "proyectomuseo",
+  "version": "1.0.0",
+  "description": "proyecto creacion de sitio web para coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafalongo7/ProyectoSegundaEntrega_RafaelBonelli.git"
+  },
+  "author": "Rafael Bonelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafalongo7/ProyectoSegundaEntrega_RafaelBonelli/issues"
+  },
+  "homepage": "https://github.com/Rafalongo7/ProyectoSegundaEntrega_RafaelBonelli#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

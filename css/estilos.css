@@ -1,142 +1,110 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 62,5%;
-    color: rgb(56, 56, 56);
-    font-family: 'Source Serif Pro', serif;
-    font-weight: 600;
-} 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62,5%;
+  color: #383838;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600; }
 
-p{
-    font-size: 1rem;
-}
+p {
+  font-size: 1rem; }
 
-h1{
-    font-size: 3.5rem;
-    font-style: italic;
-    padding: 0.5rem;
-}
+h1 {
+  font-size: 3.5rem;
+  font-style: italic;
+  padding: 0.5rem; }
 
-h2{
-   font-size: 3rem;
-   padding: 0.5rem;
-}
+h2 {
+  font-size: 3rem;
+  padding: 0.5rem; }
 
-hr{
-    color: #76767672;
-}
+hr {
+  color: #76767672; }
 
-a{
-    font-size: 1rem;
-    font-style: italic;
-    color: rgb(70, 75, 225);
-} 
+a {
+  font-size: 1rem;
+  font-style: italic;
+  color: #464be1; }
 
-.paginasNav{
-    position: relative;
-    top: 0.5rem;
-    bottom: 0.5rem;
-}
+.paginasNav {
+  position: relative;
+  top: 0.5rem;
+  bottom: 0.5rem; }
 
-.logo{
-    height: 5rem;
-    transition: transform 0.5s;
-}
-.logo:hover{
-    transform: scale(1.2,1.2) translate(1rem, 1rem);
-    position: relative;
+.logo {
+  height: 5rem;
+  transition: transform 0.5s; }
 
-}
-.links{
-    list-style-type: none;
-    display: inline-block;
-    position: relative;
-    padding: 0.5rem; 
-    background-image: linear-gradient(to left top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
-    border: 0.2rem solid rgb(134, 166, 134);
-    text-decoration: none;
-    font-size: 1.5rem;
-    transition: transform 0.5s;
-    margin: 0.5rem;
-    color: rgb(219, 231, 220);
-}
-.links:hover{
-    transform: scale(1.2,1.2);
-    position: relative;
-    z-index: 100;
-}
+.logo:hover {
+  transform: scale(1.2, 1.2) translate(1rem, 1rem);
+  position: relative; }
 
-.bg-verdeGrad{
-    background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
-}
+.links {
+  list-style-type: none;
+  display: inline-block;
+  position: relative;
+  padding: 0.5rem;
+  background-image: linear-gradient(to left top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
+  border: 0.2rem solid #86a686;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.5s;
+  margin: 0.5rem;
+  color: #dbe7dc; }
 
-.contenidoPrincipal{
-    background-image: linear-gradient(to bottom, #ffffff, #e0fbe1, #d2f7d3, #c4f2c4, #a4d9a4, #5b865b);
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
+.links:hover {
+  transform: scale(1.2, 1.2);
+  position: relative;
+  z-index: 100; }
 
-.pieDePag{
-    background-image: linear-gradient(to bottom,#a5d3a8, #95c197, #85af86, #6f9770, #5d815d);
-    color:  rgb(65, 80, 65);
-    border-top: 1px solid black;
-}
+.bg-verdeGrad {
+  background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66); }
 
-.articulo{
-    background-image: linear-gradient(to top, #b7e1b9, #aed8b0, #a5cea6, #9dc59d, #94bc94);
-    display: flex;
-    padding: 1rem;
-    margin: 2rem;
-    border: 0.2rem solid;
-    border-image: linear-gradient(45deg, #212c22,  #577c5a, #afe2ae) 1;
-}
+.contenidoPrincipal {
+  background-image: linear-gradient(to bottom, #ffffff, #e0fbe1, #d2f7d3, #c4f2c4, #a4d9a4, #5b865b);
+  display: flex;
+  width: 100%;
+  height: 100%; }
 
-.contacto{
-    text-align: center;
-    font-size: 1rem;
-}
+.pieDePag {
+  background-image: linear-gradient(to bottom, #a5d3a8, #95c197, #85af86, #6f9770, #5d815d);
+  color: #415041;
+  border-top: 1px solid black; }
 
-.habitacion{
-    background-image: url(../assets/images/habitacion.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
+.articulo {
+  background-image: linear-gradient(to top, #b7e1b9, #aed8b0, #a5cea6, #9dc59d, #94bc94);
+  display: flex;
+  padding: 1rem;
+  margin: 2rem;
+  border: 0.2rem solid;
+  border-image: linear-gradient(45deg, #212c22, #577c5a, #afe2ae) 1; }
 
-.imgEventos{
-    height: 400px;
-    display: inline-block;
-}
+.habitacion {
+  background-image: url(../assets/images/habitacion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
 
-.seccionPrincipal{    
-    width: 200vh;
-    padding: 1rem;
-}
+.imgEventos {
+  height: 400px;
+  display: inline-block; }
 
-.seccionArticulo{
-    width: 50%;
-}
+.seccionPrincipal {
+  width: 200vh;
+  padding: 1rem; }
 
-.descripcionPint{
-    padding: 2rem;
-    font-size: 1rem;
-    font-weight: 600;
-}
+.seccionArticulo {
+  width: 50%; }
 
+.listaGal {
+  font-style: italic;
+  color: black; }
 
-.listaGal{
-    font-style: italic;
-    color: black;
-}
+.imgDin {
+  transition: transform 0.5s; }
 
-.imgDin{
-    transition: transform 0.5s;
-
-}
-.imgDin:hover{
-    transform: scale(1.2,1.2);
-    position: relative;
-    z-index: 100;
-}
+.imgDin:hover {
+  transform: scale(1.2, 1.2);
+  position: relative;
+  z-index: 100; }
