@@ -22,23 +22,14 @@ h2 {
 hr {
   color: #76767672; }
 
-a {
-  font-size: 1rem;
-  font-style: italic;
-  color: #464be1; }
-
-.paginasNav {
-  position: relative;
-  top: 0.5rem;
-  bottom: 0.5rem; }
-
-.logo {
-  height: 5rem;
-  transition: transform 0.5s; }
-
-.logo:hover {
-  transform: scale(1.2, 1.2) translate(1rem, 1rem);
-  position: relative; }
+.bg-verdeGrad {
+  background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66); }
+  .bg-verdeGrad .logo {
+    height: 5rem;
+    transition: transform 0.5s; }
+  .bg-verdeGrad .logo:hover {
+    transform: scale(1.2, 1.2) translate(1rem, 1rem);
+    position: relative; }
 
 .links {
   list-style-type: none;
@@ -58,9 +49,38 @@ a {
   position: relative;
   z-index: 100; }
 
-.bg-verdeGrad {
-  background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66); }
+/* .bg-verdeGrad{
+    background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
+}
 
+.logo{
+    height: 5rem;
+    transition: transform 0.5s;
+}
+.logo:hover{
+    transform: scale(1.2,1.2) translate(1rem, 1rem);
+    position: relative;
+
+}
+.links{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem; 
+    background-image: linear-gradient(to left top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
+    border: 0.2rem solid rgb(134, 166, 134);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: transform 0.5s;
+    margin: 0.5rem;
+    color: rgb(219, 231, 220);
+}
+.links:hover{
+    transform: scale(1.2,1.2);
+    position: relative;
+    z-index: 100;
+}
+ */
 .contenidoPrincipal {
   background-image: linear-gradient(to bottom, #ffffff, #e0fbe1, #d2f7d3, #c4f2c4, #a4d9a4, #5b865b);
   display: flex;
@@ -72,6 +92,19 @@ a {
   color: #415041;
   border-top: 1px solid black; }
 
+.contenedorRedes {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center; }
+
+.redes {
+  width: 20%; }
+
+.direccion {
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; }
+
 .articulo {
   background-image: linear-gradient(to top, #b7e1b9, #aed8b0, #a5cea6, #9dc59d, #94bc94);
   display: flex;
@@ -79,6 +112,8 @@ a {
   margin: 2rem;
   border: 0.2rem solid;
   border-image: linear-gradient(45deg, #212c22, #577c5a, #afe2ae) 1; }
+  .articulo .seccionArticulo {
+    width: 50%; }
 
 .habitacion {
   background-image: url(../assets/images/habitacion.jpg);
@@ -94,9 +129,6 @@ a {
   width: 200vh;
   padding: 1rem; }
 
-.seccionArticulo {
-  width: 50%; }
-
 .listaGal {
   font-style: italic;
   color: black; }
@@ -108,3 +140,8 @@ a {
   transform: scale(1.2, 1.2);
   position: relative;
   z-index: 100; }
+
+.margenColumna {
+  background-image: url(../assets/images/planta.png);
+  background-repeat: repeat;
+  background-size: auto; }
