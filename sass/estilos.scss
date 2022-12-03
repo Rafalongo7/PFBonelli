@@ -32,10 +32,10 @@ hr{
     .logo{
         height: 5rem;
         transition: transform 0.5s;
-    }
-    .logo:hover{
-        transform: scale(1.2,1.2) translate(1rem, 1rem);
-        position: relative;    
+        &:hover{
+            transform: scale(1.2,1.2) translate(1rem, 1rem);
+            position: relative;    
+        }
     }
 }
 .links{
@@ -50,12 +50,13 @@ hr{
     transition: transform 0.5s;
     margin: 0.5rem;
     color: rgb(219, 231, 220);
+    &:hover{
+        transform: scale(1.2,1.2);
+        position: relative;
+        z-index: 100;
+    }
 }
-.links:hover{
-    transform: scale(1.2,1.2);
-    position: relative;
-    z-index: 100;
-}
+
 /* .bg-verdeGrad{
     background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
 }
@@ -99,23 +100,22 @@ hr{
     background-image: linear-gradient(to bottom,#a5d3a8, #95c197, #85af86, #6f9770, #5d815d);
     color:  rgb(65, 80, 65);
     border-top: 1px solid black;
-}
-
-.contenedorRedes{
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: center;
-}
-
-.redes{
-    width: 20%;
-}
-
-.direccion{
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-   
+    .contenedorRedes{
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: center;
+        .redes{
+            width: 20%;
+        }
+        
+    }
+    .direccion{
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+       
+    }
+    
 }
 
 .articulo{
@@ -138,17 +138,6 @@ hr{
     height: 100vh;
 }
 
-.imgEventos{
-    height: 400px;
-    display: inline-block;
-}
-
-.seccionPrincipal{    
-    width: 200vh;
-    padding: 1rem;
-}
-
-
 .listaGal{
     font-style: italic;
     color: black;
@@ -156,12 +145,11 @@ hr{
 
 .imgDin{
     transition: transform 0.5s;
-
-}
-.imgDin:hover{
-    transform: scale(1.2,1.2);
-    position: relative;
-    z-index: 100;
+    &:hover{
+        transform: scale(1.2,1.2);
+        position: relative;
+        z-index: 100;
+    }
 }
 
 .margenColumna{
