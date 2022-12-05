@@ -27,7 +27,7 @@
   font-size: 1.5rem;
   transition: transform 0.5s;
   margin: 0.5rem;
-  color: #dbe7dc; }
+  color: #cad5cb; }
   .links:hover {
     transform: scale(1.2, 1.2);
     position: relative;
@@ -101,3 +101,23 @@ hr {
     transform: scale(1.2, 1.2);
     position: relative;
     z-index: 100; }
+
+.fullSize {
+  width: 100%;
+  height: 100%; }
+
+.textoVideo {
+  color: #cad5cb;
+  text-align: center;
+  position: absolute;
+  bottom: 33.33333%;
+  left: 33.33333%;
+  right: 33.33333%;
+  top: 33.33333%; }
+
+.redondeado {
+  border-radius: 6rem; }
+
+.bordeRedo {
+  padding: 1rem;
+  border: 0.2rem solid #86a686; }

@@ -2,8 +2,8 @@
 .contenidoPrincipal{
     background-image: $gradiente-main;
     display: flex;
-    width: $ancho;
-    height: 100%;
+    width: $full;
+    height: $full;
 }
 
 .margenColumna{
