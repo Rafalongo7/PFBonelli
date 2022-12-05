@@ -115,9 +115,12 @@ hr {
   right: 33.33333%;
   top: 33.33333%; }
 
-.redondeado {
-  border-radius: 6rem; }
-
-.bordeRedo {
+.bordeRedo1 {
+  border-radius: 6rem;
   padding: 1rem;
-  border: 0.2rem solid #86a686; }
+  border: solid #afe2ae; }
+
+.bordeRedo2 {
+  border-radius: 5rem;
+  padding: 0;
+  border: solid #afe2ae; }

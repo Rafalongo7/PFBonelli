@@ -48,11 +48,10 @@
     top: $full/3;
 }
 
-.redondeado{
-    border-radius: 6rem;
+.bordeRedo1{
+    @include redondeado(6rem, 1rem, solid #afe2ae);
 }
 
-.bordeRedo{
-    padding: 1rem;
-    border: 0.2rem solid rgb(134, 166, 134);
+.bordeRedo2{
+    @include redondeado(5rem, 0, solid #afe2ae);
 }
