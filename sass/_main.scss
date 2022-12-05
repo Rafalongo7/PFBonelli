@@ -1,0 +1,13 @@
+
+.contenidoPrincipal{
+    background-image: $gradiente-main;
+    display: flex;
+    width: $ancho;
+    height: 100%;
+}
+
+.margenColumna{
+    background-image: url(../assets/images/planta.png);
+    background-repeat: repeat;
+    background-size: auto;
+}

@@ -1,0 +1,30 @@
+
+.bg-verdeGrad{
+    background-image: $gradiente-nav;
+    .logo{
+        height: 5rem;
+        transition: transform 0.5s;
+        &:hover{
+            transform: scale(1.2,1.2) translate(1rem, 1rem);
+            position: relative;    
+        }
+    }
+}
+.links{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 0.5rem; 
+    background-image: $gradiente-nav;
+    border: 0.2rem solid rgb(134, 166, 134);
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: transform 0.5s;
+    margin: 0.5rem;
+    color: rgb(219, 231, 220);
+    &:hover{
+        transform: scale(1.2,1.2);
+        position: relative;
+        z-index: 100;
+    }
+}
