@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="página de principal del museo metropolitano de arte moderno">
+    <meta name="keyword" content="museo, arte, MMAM, noticias, cuadros, metropolitano">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"> 
-    <title>Museo Metropolitano de Arte Moderno</title>
+    <title>Museo Metropolitano de Arte Moderno - Inicio</title>
     <link rel="icon" type="image/ico" href="./favicon.ico"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -19,25 +21,24 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-        
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                <a class="nav-link links" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link links" href="./pages/galeria.html">Galería</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link links" href="./pages/eventos.html">Eventos</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link links" href="./pages/nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link links" href="./pages/contacto.html">Contacto</a>
-                </li>    
-            </ul>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link links" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link links" href="./pages/galeria.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link links" href="./pages/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link links" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link links" href="./pages/contacto.html">Contacto</a>
+                    </li>    
+                </ul>
             </div>
         </nav> 
     </header>  
@@ -47,11 +48,14 @@
         </section>
         <!--SECCION PRINCIPAL-->
         <section class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
-            <div>
+            <div class="d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">
                 <video muted autoplay loop  class="fullSize">
                     <source src="./assets/videos/videoIndex.mp4" type="video/mp4">
                 </video>
                 <h1 class="textoVideo">Bienvenidos al Museo Metropolitano de Arte Moderno</h1>
+            </div>
+            <div class="text-center d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                <h1>Bienvenidos al Museo Metropolitano de Arte Moderno</h1>
             </div>
             <div>
                 <article class="articulo">
@@ -66,7 +70,7 @@
                     </div>
                     <div class="seccionArticulo">
                             <a href="./pages/eventos.html">
-                                <img class="img-fluid py-5 px-5 bordeRedo2" src="./assets/images/mujerAzul.jpg" alt="mujer de cabello azul disfrutando de un pincel azul">
+                                <img class="img-fluid py-5 px-5 bordeRedo2" src="./assets/images/mujerAzul.jpg" alt="mujer de cabello azul disfrutando de un pincel azul" loading="lazy">
                             </a>
                     </div>
                 </article>
@@ -76,7 +80,7 @@
                 <article class="articulo">
                     <div class="seccionArticulo">
                         <a href="./pages/galeria.html">
-                            <img class="img-fluid py-4 px-4 imgDin" src="./assets/images/lesdansarins.jpg" alt="cuadro de tres personas bailando en fondo negro y violeta">
+                            <img class="img-fluid py-4 px-4 imgDin" src="./assets/images/lesdansarins.jpg" alt="cuadro de tres personas bailando en fondo negro y violeta" loading="lazy">
                         </a>
                     </div>
                     <div class="seccionArticulo">
@@ -99,23 +103,22 @@
     <!--FOOTER-->
     <footer class="d-flex justify-content-center align-items-center border-top-black pieDePag">
         <div  class="col-3 d-sm-none d-md-none d-lg-block d-xl-block d-xxl-block">
-
         </div>
         <div class="col-6 direccion">
             <p><b>⌖ Coquimbo 2644 ☏ 2420 5652 ⏲ Lun a Vier 08:00hs - 16:00hs ®</b></p>
         </div>
         <div class=" col-3 contenedorRedes">
             <a href="https://youtube.com/" target="blank">
-                <img src="./assets/images/LogoYt.png" alt="" class="redes">
+                <img src="./assets/images/LogoYt.png" alt="logo youtube" class="redes">
             </a>
             <a href="https://pinterest.com/" target="blank">
-                <img src="./assets/images/LogoPinte.png" alt="" class="redes">
+                <img src="./assets/images/LogoPinte.png" alt="logo pinterest" class="redes">
             </a>
             <a href="https://instagram.com/" target="blank">
-                <img src="./assets/images/LogoInsta.png" alt="" class="redes">
+                <img src="./assets/images/LogoInsta.png" alt="logo instagram" class="redes">
             </a>
             <a href="https://facebook.com/" target="blank">
-                <img src="./assets/images/LogoFace.png" alt="" class="redes">
+                <img src="./assets/images/LogoFace.png" alt="logo facebook" class="redes">
             </a>
         </div>
     </footer>
