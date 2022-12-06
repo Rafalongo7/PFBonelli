@@ -27,7 +27,7 @@
 .imgDin{
     transition: transform 0.5s;
     &:hover{
-        @include animacion(scale(1.2,1.2));
+        @include animacion($escalado);
     }
 }
 

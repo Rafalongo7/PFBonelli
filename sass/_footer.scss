@@ -8,6 +8,10 @@
         text-align: center;
         .redes{
             width: $full/4;
+            transition: transform 0.5s;
+            &:hover{
+                @include animacion(scale(1.5,1.5));
+            }
         }
         
     }

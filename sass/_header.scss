@@ -5,7 +5,7 @@
         height: 5rem;
         transition: transform 0.5s;
         &:hover{
-            @include animacion(scale(1.2,1.2));
+            @include animacion($escalado);
             transform: scale(1.2,1.2) translate(1rem, 0rem);
         }
     }
@@ -23,6 +23,6 @@
     margin: 0.5rem;
     color: $blanquecino;
     &:hover{
-        @include animacion(scale(1.2,1.2));
+        @include animacion($escalado);
     }
 }
