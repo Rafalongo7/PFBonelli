@@ -17,34 +17,32 @@
       position: relative;
       z-index: 100;
       transform: scale(1.2, 1.2) translate(1rem, 0rem); }
-
-.links {
-  list-style-type: none;
-  display: inline-block;
-  position: relative;
-  padding: 0.5rem;
-  background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
-  border: 0.2rem solid #86a686;
-  text-decoration: none;
-  font-size: 1.5rem;
-  transition: transform 0.5s;
-  margin: 0.5rem;
-  color: #cad5cb; }
-  .links:hover {
-    transform: scale(1.2, 1.2);
+  .bg-verdeGrad .links {
+    list-style-type: none;
+    display: inline-block;
     position: relative;
-    z-index: 100; }
+    padding: 0.5rem;
+    background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
+    border: 0.2rem solid #86a686;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: transform 0.5s;
+    margin: 0.5rem;
+    color: #cad5cb; }
+    .bg-verdeGrad .links:hover {
+      transform: scale(1.2, 1.2);
+      position: relative;
+      z-index: 100; }
 
 .contenidoPrincipal {
   background-image: linear-gradient(to bottom, #ffffff, #e0fbe1, #d2f7d3, #c4f2c4, #a4d9a4, #5b865b);
   display: flex;
   width: 100%;
   height: 100%; }
-
-.margenColumna {
-  background-image: url(../assets/images/planta.png);
-  background-repeat: repeat;
-  background-size: auto; }
+  .contenidoPrincipal .margenColumna {
+    background-image: url(../assets/images/planta.png);
+    background-repeat: repeat;
+    background-size: auto; }
 
 .pieDePag {
   background-image: linear-gradient(to bottom, #a5d3a8, #95c197, #85af86, #6f9770, #5d815d);

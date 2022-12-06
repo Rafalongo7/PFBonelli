@@ -4,10 +4,10 @@
     display: flex;
     width: $full;
     height: $full;
+    .margenColumna{
+        background-image: url(../assets/images/planta.png);
+        background-repeat: repeat;
+        background-size: auto;
+    }
 }
 
-.margenColumna{
-    background-image: url(../assets/images/planta.png);
-    background-repeat: repeat;
-    background-size: auto;
-}

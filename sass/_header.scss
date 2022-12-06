@@ -9,20 +9,21 @@
             transform: scale(1.2,1.2) translate(1rem, 0rem);
         }
     }
-}
-.links{
-    list-style-type: none;
-    display: inline-block;
-    position: relative;
-    padding: 0.5rem; 
-    background-image: $gradiente-nav;
-    border: 0.2rem solid rgb(134, 166, 134);
-    text-decoration: none;
-    font-size: 1.5rem;
-    transition: transform 0.5s;
-    margin: 0.5rem;
-    color: $blanquecino;
-    &:hover{
-        @include animacion($escalado);
+    .links{
+        list-style-type: none;
+        display: inline-block;
+        position: relative;
+        padding: 0.5rem; 
+        background-image: $gradiente-nav;
+        border: 0.2rem solid rgb(134, 166, 134);
+        text-decoration: none;
+        font-size: 1.5rem;
+        transition: transform 0.5s;
+        margin: 0.5rem;
+        color: $blanquecino;
+        &:hover{
+            @include animacion($escalado);
+        }
     }
+    
 }
