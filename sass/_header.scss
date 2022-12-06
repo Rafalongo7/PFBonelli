@@ -5,8 +5,8 @@
         height: 5rem;
         transition: transform 0.5s;
         &:hover{
-            transform: scale(1.2,1.2) translate(1rem, 1rem);
-            position: relative;    
+            @include animacion(scale(1.2,1.2));
+            transform: scale(1.2,1.2) translate(1rem, 0rem);
         }
     }
 }
@@ -23,8 +23,6 @@
     margin: 0.5rem;
     color: $blanquecino;
     &:hover{
-        transform: scale(1.2,1.2);
-        position: relative;
-        z-index: 100;
+        @include animacion(scale(1.2,1.2));
     }
 }

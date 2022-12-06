@@ -3,3 +3,9 @@
     padding: $colchon;
     border: $borde;
 }
+
+@mixin animacion($escalado){
+    transform: $escalado;
+    position: relative;
+    z-index: 100;
+}

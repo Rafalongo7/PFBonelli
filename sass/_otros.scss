@@ -27,9 +27,7 @@
 .imgDin{
     transition: transform 0.5s;
     &:hover{
-        transform: scale(1.2,1.2);
-        position: relative;
-        z-index: 100;
+        @include animacion(scale(1.2,1.2));
     }
 }
 

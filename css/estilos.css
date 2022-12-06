@@ -13,8 +13,10 @@
     height: 5rem;
     transition: transform 0.5s; }
     .bg-verdeGrad .logo:hover {
-      transform: scale(1.2, 1.2) translate(1rem, 1rem);
-      position: relative; }
+      transform: scale(1.2, 1.2);
+      position: relative;
+      z-index: 100;
+      transform: scale(1.2, 1.2) translate(1rem, 0rem); }
 
 .links {
   list-style-type: none;
