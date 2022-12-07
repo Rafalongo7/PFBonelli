@@ -23,6 +23,7 @@
         color: $blanquecino;
         &:hover{
             @include animacion($escalado);
+            color: rgb(80, 80, 80);
         }
     }
     

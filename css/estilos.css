@@ -32,7 +32,8 @@
     .bg-verdeGrad .links:hover {
       transform: scale(1.2, 1.2);
       position: relative;
-      z-index: 100; }
+      z-index: 100;
+      color: #505050; }
 
 .contenidoPrincipal {
   background-image: linear-gradient(to bottom, #ffffff, #e0fbe1, #d2f7d3, #c4f2c4, #a4d9a4, #5b865b);
@@ -129,3 +130,11 @@ hr {
   border-radius: 5rem;
   padding: 0;
   border: solid #afe2ae; }
+
+.enviar {
+  color: #cad5cb;
+  padding: 0.5rem;
+  background-image: linear-gradient(to top, #a5d3a8, #95c197, #85af86, #759d76, #668c66);
+  border: 0.2rem solid #86a686; }
+  .enviar:hover {
+    color: #505050; }

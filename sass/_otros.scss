@@ -53,3 +53,13 @@
 .bordeRedo2{
     @include redondeado(5rem, 0, solid #afe2ae);
 }
+
+.enviar{
+    color: $blanquecino;
+    padding: 0.5rem; 
+    background-image: $gradiente-nav;
+    border: 0.2rem solid rgb(134, 166, 134);
+    &:hover{
+        color: rgb(80, 80, 80);
+    }
+}
