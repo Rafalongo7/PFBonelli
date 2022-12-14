@@ -1,3 +1,44 @@
+#exito {
+  width: 50px;
+  height: 50px;
+  background-image: url(../assets/animations/scs1.png);
+  animation-name: exito;
+  animation-duration: 0.8s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  margin: auto;
+  filter: grayscale(35%); }
+
+@keyframes exito {
+  0% {
+    background-image: url(../assets/animations/scs1.png); }
+  7% {
+    background-image: url(../assets/animations/scs2.png); }
+  14% {
+    background-image: url(../assets/animations/scs3.png); }
+  21% {
+    background-image: url(../assets/animations/scs4.png); }
+  28% {
+    background-image: url(../assets/animations/scs5.png); }
+  35% {
+    background-image: url(../assets/animations/scs6.png); }
+  42% {
+    background-image: url(../assets/animations/scs7.png); }
+  49% {
+    background-image: url(../assets/animations/scs8.png); }
+  56% {
+    background-image: url(../assets/animations/scs9.png); }
+  63% {
+    background-image: url(../assets/animations/scs10.png); }
+  70% {
+    background-image: url(../assets/animations/scs11.png); }
+  77% {
+    background-image: url(../assets/animations/scs12.png); }
+  85% {
+    background-image: url(../assets/animations/scs13.png); }
+  100% {
+    background-image: url(../assets/animations/scs13.png); } }
+
 * {
   margin: 0;
   padding: 0;
@@ -138,3 +179,6 @@ hr {
   border: 0.2rem solid #86a686; }
   .enviar:hover {
     color: #505050; }
+
+.tercio {
+  height: 33%; }
