@@ -89,7 +89,7 @@
 .pieDePag {
   background-image: linear-gradient(to bottom, #a5d3a8, #95c197, #85af86, #6f9770, #5d815d);
   color: #415041;
-  border-top: 1px solid black; }
+  border-top: 1px solid #6d6d6d; }
   .pieDePag .contenedorRedes {
     display: flex;
     flex-direction: row-reverse;
@@ -139,6 +139,7 @@ hr {
   height: 100vh; }
 
 .listaGal {
+  list-style-type: none;
   font-style: italic;
   color: black; }
 
@@ -182,3 +183,17 @@ hr {
 
 .tercio {
   height: 33%; }
+
+.marcoGal {
+  position: absolute;
+  top: 35%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  overflow: hidden; }
+
+.florft {
+  width: 10rem; }
+
+.cuadros {
+  overflow: hidden; }

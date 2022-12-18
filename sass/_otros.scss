@@ -20,6 +20,7 @@
 }
 
 .listaGal{
+    list-style-type: none;
     font-style: italic;
     color: black;
 }
@@ -66,4 +67,21 @@
 
 .tercio{
     height: 33%;
+}
+
+.marcoGal{
+    position: absolute;
+    top: 35%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+}
+
+.florft{
+    width: 10rem;
+}
+
+.cuadros{
+    overflow: hidden;
 }
