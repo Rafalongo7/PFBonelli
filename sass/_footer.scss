@@ -1,5 +1,5 @@
 .pieDePag{
-    background-image: $gradiente-foot;
+    background-image: map-get($mapaGr, gr-foot);
     color:  rgb(65, 80, 65);
     border-top: 1px solid rgb(109, 109, 109);
     .contenedorRedes{

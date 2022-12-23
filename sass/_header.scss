@@ -1,6 +1,6 @@
 
 .bg-verdeGrad{
-    background-image: $gradiente-nav;
+    background-image: map-get($mapaGr, gr-nav);
     .logo{
         height: 5rem;
         transition: transform 0.5s;
@@ -14,7 +14,7 @@
         display: inline-block;
         position: relative;
         padding: 0.5rem; 
-        background-image: $gradiente-nav;
+        background-image: map-get($mapaGr, gr-nav);
         border: 0.2rem solid rgb(134, 166, 134);
         text-decoration: none;
         font-size: 1.5rem;

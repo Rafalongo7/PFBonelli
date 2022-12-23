@@ -1,6 +1,6 @@
 
 .contenidoPrincipal{
-    background-image: $gradiente-main;
+    background-image: map-get($mapaGr, gr-main);
     display: flex;
     width: $full;
     height: $full;

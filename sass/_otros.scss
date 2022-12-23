@@ -1,11 +1,11 @@
 
 .articulo{
-    background-image: $gradiente-arti;
+    background-image: map-get($mapaGr, gr-arti);
     display: flex;
     padding: 1rem;
     margin: 2rem;
     border: 0.2rem solid;
-    border-image: linear-gradient(45deg, #212c22,  #577c5a, #afe2ae) 1;
+    border-image: map-get($mapaGr, gr-arti2);
     .seccionArticulo{
         width: $full/2;
     }
@@ -58,7 +58,7 @@
 .enviar{
     color: $blanquecino;
     padding: 0.5rem; 
-    background-image: $gradiente-nav;
+    background-image: map-get($mapaGr, gr-nav);
     border: 0.2rem solid rgb(134, 166, 134);
     &:hover{
         color: rgb(80, 80, 80);
